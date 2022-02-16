@@ -1,0 +1,44 @@
+/*GENERAL*/
+   
+body{
+    width: 900px;
+    margin: auto;
+    font-family:"Raleway", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;}
+h2{
+    font-size: 20px; font-weight: 600;}
+
+/*HEADER*/
+
+header{
+    display: flex;
+    justify-content: space-between;}   
+header img{
+    height: 40px;
+    vertical-align: bottom;}
+nav{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    vertical-align: top;
+    margin:0 10px;
+    position: absolute;
+    right: 0px;}
+a:hover{
+    color:#0065FC;
+}
+
+nav ul{
+    display: flex; 
+    list-style: none;}
+nav li{
+    margin: 0 15px;
+}
+
+    /*MAIN CONTENTS*/
+
+
+/*FOOTER*/
+footer{
+    background-color: #F2F2F2;}
