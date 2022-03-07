@@ -125,24 +125,32 @@ a:hover{
     width: 65%;
     background-color:#F2F2F2;
     border-radius: 20px;
-padding: 20px 0 0 20px;}
+    padding: 10px 0 0 0;}
 #main-items{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px;}
+    justify-content: space-around;
+    flex-wrap: wrap;}
 .hotel-image{
-    width: 185px;
-    height: 105px;
+    width: 180px;
+    height: 100px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;}
 .hotel{
-    height:210px;
     display: flex;
     flex-direction: column;
     background-color:white;
     border-radius: 20px;
-    padding: 3px;}
+    padding: 3px;
+    margin: 8px;
+    box-shadow: 0px 8px 8px -3px #b6b4b4;}
+.hotel-description{
+    line-height:3px;
+    padding-left: 8px;}
+#main-results h2{
+    margin-left: 20px;}
+#more{
+    font-weight: bold;
+    margin: 20px 0 0 20px;}
 
 /*ASIDE*/
 aside{
@@ -164,7 +172,8 @@ aside{
     background-color: white;
     padding: 3px;
     margin: 10px;
-    border-radius: 20px;}
+    border-radius: 20px;
+    box-shadow: 0px 8px 8px -3px #b6b4b4;}
 .popular-image{
     border-radius: 20px 0px 0px 20px;
     width: 100px;
@@ -173,29 +182,42 @@ aside{
 .description{
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    height: 100px;
+    line-height:3px;
+    height: 105px;
     padding: 3px;}
+h3{
+    flex-wrap:wrap;}
 
-    /*ACTIVITIES*/
+/*ACTIVITIES*/
 #activities{
     width: 100%;
     display: flex;
     flex-direction: column;}
 #results-activities{
     display: flex;
-    justify-content:space-between;
-    align-items:flex-start;
+    justify-content: space-around;
     flex-wrap: wrap;}
-
-.photos-activities img{
-    max-width: 150px;
-    max-height: 150px;}
-
-.photos-activities{
+.activity{
+    width: 20%;
+    flex-grow:2;
     background-color:white;
-    box-shadow: 0px 2px 8px 0px gray;
-    border-radius:25px;}
+    box-shadow: 0px 8px 8px -3px #b6b4b4;
+    border-radius:20px;
+    margin: 8px;}
+.activity2{
+    width: 20%;
+    background-color:white;
+    box-shadow: 0px 8px 8px -3px #b6b4b4;
+    border-radius:20px;
+    margin: 8px;}
+.photo-activity{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius:20px 20px 0 0;}
+
+.activity h3{
+    padding-left:10px;}
 
 /*FOOTER*/
 footer{
