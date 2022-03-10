@@ -25,33 +25,40 @@
 </header>
 <!--MAIN CONTENTS-->
 <main> 
-	<section id="search-form"> <!--SEARCH FORM-->
-			<h2>Trouvez votre hébergement pour les vacances de rêve</h2>
-			<p>En plein centre ville ou en pleine nature</p>
-			<div id="fill-out">
-				<div id="location">	
-					<i class="fa-solid fa-location-dot black"></i>
-					<p id="city">Marseille, France</p>
-					<a href="#"><p id="button">Rechercher</p></a>
-				</div>
-			<div class="filters">
-				<p><strong>Filtres</strong></p>
-				<div class="filter-button"><a href="#"></a>
-					<i class="fa-solid fa-money-bill-wave blue"></i>
-					<p>Economique</p>
-				</div>
-				<div class="filter-button"><a href="#"></a>
-					<i class="fa-solid fa-child blue"></i>
-					<p>Familial</p>
-				</div>
-				<div class="filter-button"><a href="#"></a>
-					<i class="fa-solid fa-heart blue"></i>
-					<p>Romantique</p>
-				</div>
-				<div class="filter-button"><a href="#"></a>
-					<i class="fa-solid fa-dog blue"></i>
-					<p>Animaux autorisés</p>
-				</div>
+	
+<!--SEARCH FORM-->
+	<section id="search-form"> 
+		<h2>Trouvez votre hébergement pour les vacances de rêve</h2>
+		<p id="addition">En plein centre ville ou en pleine nature</p>
+		<div id="fill-out">
+			<i class="fa-solid fa-location-dot black"></i>
+			<form method="post" action="traitement.php">
+			<input type="text" name="ville" id="ville" placeholder="Marseille, France" size="20" maxlength="30" />
+			</form>
+			<button class="button" type="button">Rechercher</button>
+			<div id="search-icon">
+				<i class="fa-solid fa-magnifying-glass"></i>
+			</div>
+			
+		</div>
+<!--FILTERS-->
+		<div class="filters">
+			<p id="title">Filtres</p>
+			<div class="filter-button"><a href="#"></a>
+				<i class="fa-solid fa-money-bill-wave blue"></i>
+				<p>Economique</p>
+			</div>
+			<div class="filter-button"><a href="#"></a>
+				<i class="fa-solid fa-child blue"></i>
+				<p>Familial</p>
+			</div>
+			<div class="filter-button"><a href="#"></a>
+				<i class="fa-solid fa-heart blue"></i>
+				<p>Romantique</p>
+			</div>
+			<div class="filter-button"><a href="#"></a>
+				<i class="fa-solid fa-dog blue"></i>
+				<p>Animaux autorisés</p>
 			</div>
 		</div>
 		<div id="comment">
