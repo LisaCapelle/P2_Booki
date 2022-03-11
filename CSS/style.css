@@ -177,8 +177,7 @@ form {
 #main-items a:hover{
     color:#0065FC;
     font-weight:bolder;
-    font-size:larger;
-    image-rendering: crisp-edges;}
+    font-size:14px;}
 
 /*ASIDE*/
 aside{
@@ -272,6 +271,12 @@ aside{
     height: 110px;
     object-fit: cover;
     border-radius:20px 20px 0 0;}
+.photos-activities a{
+    color:black; 
+    text-decoration: none;}
+.photos-activities a:hover{
+    color:#0065FC;
+    font-size:larger;}
 
 /*FOOTER*/
 footer{
