@@ -241,7 +241,6 @@ aside{
 .popular-description{
     display: flex;
     flex-direction: column;
-    
     height: 101px;
     padding-left: 6px;}
 .stuck{
@@ -255,7 +254,6 @@ aside{
     display: flex;
     flex-direction: column;
     margin-top:15px;}
-
 .activity h3{
     padding-left: 15px;
     font-weight: bold;}
